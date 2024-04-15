@@ -1,0 +1,8 @@
+.aboutt {
+    background-image: url('https://i.ibb.co/ggydLch/about-us.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    background-position: center;
+    border-radius: 1rem;
+}

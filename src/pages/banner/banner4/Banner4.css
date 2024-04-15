@@ -1,0 +1,8 @@
+.bannerr4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('https://i.ibb.co/d2RfJft/kithcena1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    background-position: center;
+    border-radius: 1rem;
+}

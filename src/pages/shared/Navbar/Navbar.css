@@ -1,0 +1,4 @@
+.menu li > *:not(ul, .menu-title, details, .btn).active, .menu li > details > summary:active {
+    background-color:rgb(190, 208, 241);
+    color: black;
+}

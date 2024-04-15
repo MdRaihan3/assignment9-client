@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "estate_title": "Luxurious Beachfront Villa",
+      "segment_name": "Villa",
+      "description": "Stunning beachfront villa with panoramic ocean views. Features spacious living areas, infinity pool, and private beach access.",
+      "price": 3500000,
+      "status": "sale",
+      "area": 5000,
+      "location": "Malibu, California",
+      "facilities": ["Pool", "Private Beach Access", "Spa", "Gourmet Kitchen"],
+      "image": "https://i.ibb.co/KNf06Mk/bathroom.jpg"
+    },
+    {
+      "id": 2,
+      "estate_title": "Modern Downtown Apartment",
+      "segment_name": "Apartment",
+      "description": "Sleek and modern apartment in the heart of downtown. Close to shopping, dining, and entertainment.",
+      "price": 2000,
+      "status": "rent",
+      "area": 1000,
+      "location": "New York City, New York",
+      "facilities": ["Gym", "Rooftop Terrace", "Concierge Service", "Smart Home System"],
+      "image": "https://i.ibb.co/GF6mdCd/bedrroma1.jpg"
+    },
+    {
+      "id": 3,
+      "estate_title": "Charming Countryside Cottage",
+      "segment_name": "Cottage",
+      "description": "Cozy cottage nestled in picturesque countryside. Perfect for a peaceful retreat.",
+      "price": 300000,
+      "status": "sale",
+      "area": 1500,
+      "location": "Cotswolds, England",
+      "facilities": ["Garden", "Fireplace", "Country Kitchen", "Outdoor Dining Area"],
+      "image": "https://i.ibb.co/z8Tpx7m/rhouse.jpg"
+    },
+    {
+      "id": 4,
+      "estate_title": "Luxury Downtown Villa",
+      "segment_name": "Villa",
+      "description": "Elegant villa located in the heart of downtown. Offers luxury living with city views and convenient access to amenities.",
+      "price": 5500000,
+      "status": "sale",
+      "area": 4500,
+      "location": "Los Angeles, California",
+      "facilities": ["Swimming Pool", "Garden", "Home Theater"],
+      "image": "https://i.ibb.co/vJ2P81m/rhouse2.jpg"
+    },
+    {
+      "id": 5,
+      "estate_title": "Cottage Retreat",
+      "segment_name": "Cottage",
+      "description": "Quaint cottage located by the riverside. Perfect for nature lovers seeking tranquility.",
+      "price": 250000,
+      "status": "sale",
+      "area": 1200,
+      "location": "Lake District, England",
+      "facilities": ["River View Deck", "Fire Pit", "Cozy Living Room"],
+      "image": "https://i.ibb.co/Bczmhph/rhouse4.webp"
+    },
+    {
+      "id": 6,
+      "estate_title": "Charming Apartment",
+      "segment_name": "Apartment",
+      "description": "Spacious apartment with breathtaking views of the ocean. Offers resort-style living with luxury amenities.",
+      "price": 3000,
+      "status": "rent",
+      "area": 1500,
+      "location": "Miami Beach, Florida",
+      "facilities": ["Beach Access", "Pool", "Fitness Center", "Oceanfront Balcony"],
+      "image": "https://i.ibb.co/T4x6m7B/kitchen2.jpg"
+    }
+  ]
