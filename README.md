@@ -9,11 +9,11 @@
 - user can explore and choose there desired home
 - private routes give extra security
 
-<!-- **npm package name**
+**npm package name**
 - sweetalert
 - react-toastify
 - react-icons
-- react-helmet-async -->
+- react-helmet-async
 
 **3 package name**
 - React Fook Form

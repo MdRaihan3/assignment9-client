@@ -30,8 +30,8 @@ const Login = () => {
                 console.log(result.user)
             })
             .catch(error => {
-                // swal('Check your email and password again')
-                // console.error(error)
+                swal('Check your email and password again')
+                console.error(error)
             })
     }
 
