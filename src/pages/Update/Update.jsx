@@ -1,6 +1,7 @@
 import { useContext } from 'react';
 import { AuthContext } from '../../providers/AuthProvider';
 import { ToastContainer, toast } from 'react-toastify';
+import { Helmet } from 'react-helmet-async';
 
 const Update = () => {
     const {updateUserProfile} = useContext(AuthContext)
@@ -21,6 +22,9 @@ const Update = () => {
     }
     return (
         <div>
+             <Helmet>
+                <title>Update Profile</title>
+            </Helmet>
         <div className="hero  bg-base-200 my-10">
             <div className="hero-content flex-col ">
                 <div className="text-center lg:text-left">

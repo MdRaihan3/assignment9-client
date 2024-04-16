@@ -27,6 +27,7 @@ const Navbar = () => {
                                 <>
                                     <li><NavLink to='/register'>Update Profile</NavLink></li>
                                     <li><NavLink to='/userProfile'>User Profile</NavLink></li>
+                                    <li><NavLink to='/agent'>Our Agents</NavLink></li>
                                 </> :
                                 <li><NavLink to='/login'>Login</NavLink></li>
                         }
@@ -45,6 +46,7 @@ const Navbar = () => {
                         user && <>
                             <li><NavLink to='/userProfile'>User Profile</NavLink></li>
                             <li><NavLink to='/update'>Update Profile</NavLink></li>
+                            <li><NavLink to='/agent'>Our Agents</NavLink></li>
                         </>
                     }
 

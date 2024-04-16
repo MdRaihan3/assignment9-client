@@ -1,7 +1,11 @@
+import { Helmet } from 'react-helmet-async';
 import './About.css'
 const About = () => {
     return (
         <div className=' text-lg'>
+             <Helmet>
+                <title>About</title>
+            </Helmet>
             <div className=" grid md:grid-cols-2 my-8 gap-7">
                 <div className=" aboutt flex items-center justify-center my-7">
                     {/* <p className=' text-7xl text-green-800 font-bold'>About Us</p> */}

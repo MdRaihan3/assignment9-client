@@ -9,7 +9,7 @@ const Banner = () => {
         <div>
             <div className=' my-20'>
                 <div className="carousel w-full">
-                    <div id="slide1" className="carousel-item relative w-full">
+                    <div id="slide1" className="carousel-item relative w-full ">
                         <div className=" w-full"> <Banner1></Banner1></div>
                       
                         <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">

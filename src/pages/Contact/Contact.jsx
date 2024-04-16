@@ -1,7 +1,11 @@
+import { Helmet } from 'react-helmet-async';
 import './Contact.css'
 const Contact = () => {
     return (
         <div>
+             <Helmet>
+                <title>Contact</title>
+            </Helmet>
             <div className=" contactt flex items-center justify-center my-7">
                 <p className=' text-6xl text-orange-500 font-bold'>Contact Us</p>
             </div>

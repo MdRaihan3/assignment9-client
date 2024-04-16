@@ -1,8 +1,21 @@
-# React + Vite
+# Assignment 9
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# [Live Site Link]()
 
-Currently, two official plugins are available:
+**features and characteristics of this website**
+- smooth user performances
+- responsive for all device
+- fast performance
+- user can explore and choose there desired home
+- private routes give extra security
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**npm package name**
+- sweetalert
+- react-toastify
+- react-icons
+- react-helmet-async
+
+**3 package name**
+- React Fook Form
+- AOS package
+- Animate.css

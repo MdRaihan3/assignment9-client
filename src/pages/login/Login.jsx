@@ -7,6 +7,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import swal from 'sweetalert';
 import { IoEyeOffOutline, IoEyeOutline } from "react-icons/io5";
 import { FaGithub, FaGoogle } from "react-icons/fa";
+import { Helmet } from "react-helmet-async";
 
 
 const Login = () => {
@@ -65,6 +66,9 @@ const Login = () => {
 
     return (
         <div>
+             <Helmet>
+                <title>Login</title>
+            </Helmet>
             <div className="hero  bg-base-200">
                 <div className="hero-content flex-col ">
                     <div className="text-center lg:text-left">

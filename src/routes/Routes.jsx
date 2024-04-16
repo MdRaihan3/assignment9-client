@@ -10,6 +10,7 @@ import UserProfile from "../pages/UserProfile/UserProfile";
 import About from "../pages/About/About";
 import Error from "../pages/Error/Error";
 import Update from "../pages/Update/Update";
+import Agents from "../pages/Agents/Agents";
 
 const router = createBrowserRouter([
     {
@@ -52,6 +53,10 @@ const router = createBrowserRouter([
                 element: <PrivateRoute><ViewProperty></ViewProperty></PrivateRoute>,
                 errorElement:<Error></Error>,
                 loader: () => fetch('/houses.json')
+            },
+            {
+                path: '/agent',
+                element: <PrivateRoute><Agents></Agents></PrivateRoute>
             },
             {
                 path: '/update',
