@@ -7,9 +7,9 @@ const UserProfile = () => {
     const {displayName, email, photoURL} = user;
     return (
         <div className=" mx-auto w-fit border-2 p-6 rounded-lg text-lg my-10 bg-slate-50">
-             {/* <Helmet>
+             <Helmet>
                 <title>User Profile</title>
-            </Helmet> */}
+            </Helmet>
             <p className="flex justify-center text-xl font-bold">Profile</p> <hr />
             <div className=" w-16 mt-5">
                 <img className=" rounded-full" src={photoURL} alt="" />

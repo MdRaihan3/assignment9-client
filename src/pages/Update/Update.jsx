@@ -22,9 +22,9 @@ const Update = () => {
     }
     return (
         <div>
-             {/* <Helmet>
+             <Helmet>
                 <title>Update Profile</title>
-            </Helmet> */}
+            </Helmet>
         <div className="hero  bg-base-200 my-10">
             <div className="hero-content flex-col ">
                 <div className="text-center lg:text-left">
