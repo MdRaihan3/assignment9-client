@@ -4,6 +4,7 @@ import { AuthContext } from "../../providers/AuthProvider";
 import { GoogleAuthProvider, GithubAuthProvider } from "firebase/auth";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import swal from 'sweetalert';
 import { IoEyeOffOutline, IoEyeOutline } from "react-icons/io5";
 import { FaGithub, FaGoogle } from "react-icons/fa";
 
@@ -23,16 +24,12 @@ const Login = () => {
 
         signIn(email, password)
             .then(result => {
-                toast('Succesfully logged in', {
-                    autoClose: 1000,
-                })
+                swal('Successfully logged in');
                 navigate(location?.state ? location.state : '/')
                 console.log(result.user)
             })
             .catch(error => {
-                toast('Check your email and password again', {
-                    autoClose: 2000,
-                })
+                swal('Check your email and password again')
                 console.error(error)
             })
     }
@@ -41,6 +38,10 @@ const Login = () => {
         const googleProvider = new GoogleAuthProvider();
         googleSignIn(googleProvider)
             .then(result => {
+                toast('Successfully logged in', {
+                    autoClose: 1000,
+                })
+                navigate(location?.state ? location.state : '/')
                 console.log(result.user)
             })
             .catch(error => {
@@ -51,6 +52,10 @@ const Login = () => {
         const githubProvider = new GithubAuthProvider();
         githubSignIn(githubProvider)
             .then(result => {
+                toast('Successfully logged in', {
+                    autoClose: 1000,
+                })
+                navigate(location?.state ? location.state : '/')
                 console.log(result.user)
             })
             .catch(error => {
@@ -86,7 +91,7 @@ const Login = () => {
                                             showPass ? <IoEyeOffOutline></IoEyeOffOutline> : <IoEyeOutline></IoEyeOutline>
                                         }
                                     </span>
-                                    <ToastContainer></ToastContainer>
+                                    
                                 </div>
 
                             </div>
@@ -99,8 +104,8 @@ const Login = () => {
                     <p className=" text-center text-lg mt-4">Do not have an account? <Link className=' text-lg text-blue-600 font-bold' to='/register'>Register</Link></p>
                     <div className=" divider">Also login with</div>
                     <div className=" flex gap-6">
-                    <div><button onClick={handleGoogleSignIn} className="btn btn-primary btn-sm btn-outline"><FaGoogle></FaGoogle> Google</button></div>
-                    <div><button onClick={handleGithubSignIn} className="btn btn-primary btn-sm btn-outline"><FaGithub className=" text-black"></FaGithub> Github</button></div>
+                    <div><button onClick={handleGoogleSignIn} className="btn btn-primary btn-sm btn-outline"><FaGoogle></FaGoogle> Google</button> <ToastContainer></ToastContainer></div>
+                    <div><button onClick={handleGithubSignIn} className="btn btn-primary btn-sm btn-outline"><FaGithub className=" text-black"></FaGithub> Github</button> <ToastContainer></ToastContainer></div>
                     </div>
                     
                 </div>

@@ -32,7 +32,9 @@ const Navbar = () => {
                         }
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-3xl font-bold gap-0"><span className=" text-orange-500">R</span>Home</a>
+                <a className="btn btn-ghost text-3xl font-bold gap-0">
+                    <img className=" w-8 h-8" src="public/home-icon.png" alt="" />
+                    <span className=" text-orange-500">R</span>Home</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -52,7 +54,7 @@ const Navbar = () => {
             <div className="navbar-end">
                 <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                     <div className=" w-14 rounded-full group/item hover:bg-slate-100 
-                     hover:min-w-32 hover:h-20 hover:rounded-lg hover:pb-8 border-2 ">
+                     hover:min-w-32 hover:h-20 hover:rounded-lg hover:pb-8 ">
                         {
                             user && <img src={user?.photoURL} />
                         }

@@ -6,7 +6,7 @@ const ViewProperty = () => {
     const { estate_title, description, price, status, area, location, facilities, image } = house;
     return (
         <div>
-            <div className=' grid grid-cols-2 my-8 gap-8'>
+            <div className=' md:grid grid-cols-2 my-8 gap-8'>
                 <div className=' col-span-1 w-full'>
                     <img className=' w-full h-96 rounded-md' src={image} alt="" />
                 </div>

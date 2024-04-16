@@ -11,7 +11,7 @@ const Houses = () => {
     }, [])
     console.log(data)
     return (
-        <div className=' grid grid-cols-3 gap-6 my-8'>
+        <div className=' grid md:grid-cols-3 gap-6 my-8'>
             {
                 estateCards.map( house => <House key={house.id} house={house}></House>)
             }

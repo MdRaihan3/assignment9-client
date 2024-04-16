@@ -1,9 +1,15 @@
+import Aos from "aos";
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const House = ({house}) => {
     const {id, estate_title, status, area, location, image   } = house;
+    useEffect(()=>{
+        Aos.init()
+    },[])
     return (
-        <div className=" p-4 border">
+        <div className=" p-4 border" data-aos='fade-up'>
             <div className="px-6 py-3 rounded-2xl bg-[#1313130D]">
                 <img className="w-full h-52 rounded"  src={image} alt="" />
             </div>
