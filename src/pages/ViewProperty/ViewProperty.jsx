@@ -1,5 +1,7 @@
 import { useParams, useLoaderData } from 'react-router-dom';
 import './ViewProperty.css';
+import Aos from "aos";
+import 'aos/dist/aos.css';
 import 'animate.css'
 import { Helmet } from 'react-helmet-async';
 const ViewProperty = () => {
@@ -18,10 +20,10 @@ const ViewProperty = () => {
                 </p>
             </div>
             <div className=' md:grid grid-cols-2 my-8 gap-8'>
-                <div className=' col-span-1 w-full'>
+                <div className=' col-span-1 w-full' data-aos="flip-right">
                     <img className=' w-full h-96 rounded-md' src={image} alt="" />
                 </div>
-                <div className=' col-span-1 space-y-2 text-lg'>
+                <div className=' col-span-1 space-y-2 text-lg' data-aos="zoom-in">
                     <p className=' text-2xl font-bold'>{estate_title}</p>
                     <hr />
                     <p>{description}</p>
