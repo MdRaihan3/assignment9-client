@@ -6,7 +6,8 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { IoEyeOffOutline, IoEyeOutline } from "react-icons/io5";
 import { Helmet } from "react-helmet-async";
-import 'animate.css'
+import 'animate.css';
+import swal from 'sweetalert';
 
 const Register = () => {
     const { createUser, updateUserProfile } = useContext(AuthContext)
@@ -46,8 +47,10 @@ const Register = () => {
                         console.log('profile updated')
                     })
                     .catch(error =>{
+                        swal('Check your email and password again')
                         console.error(error)
                     });
+                    swal('Check your email and password again')
                 toast('Successfully registered', {
                     autoClose: 1000,
                 });
@@ -55,6 +58,7 @@ const Register = () => {
                 console.log(result.user)
             })
             .catch(error => {
+               swal('Check your email and password again')
                 console.error(error)
             })
     }
