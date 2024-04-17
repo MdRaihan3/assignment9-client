@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { AuthContext } from "../../providers/AuthProvider";
 import { Helmet } from "react-helmet-async";
+import 'animate.css'
 
 const UserProfile = () => {
     const {user} = useContext(AuthContext)
@@ -10,7 +11,7 @@ const UserProfile = () => {
              <Helmet>
                 <title>User Profile</title>
             </Helmet>
-            <p className="flex justify-center text-xl font-bold">Profile</p> <hr />
+            <p className="flex justify-center text-xl font-bold animate__animated animate__backInDown">Profile</p> <hr />
             <div className=" w-16 mt-5">
                 <img className=" rounded-full" src={photoURL} alt="" />
             </div>

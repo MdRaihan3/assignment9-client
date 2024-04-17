@@ -8,7 +8,7 @@ import swal from 'sweetalert';
 import { IoEyeOffOutline, IoEyeOutline } from "react-icons/io5";
 import { FaGithub, FaGoogle } from "react-icons/fa";
 import { Helmet } from "react-helmet-async";
-
+import 'animate.css';
 
 const Login = () => {
     const { signIn, googleSignIn, githubSignIn } = useContext(AuthContext)
@@ -72,7 +72,7 @@ const Login = () => {
             <div className="hero  bg-base-200">
                 <div className="hero-content flex-col ">
                     <div className="text-center lg:text-left">
-                        <h1 className="text-5xl font-bold">Login now!</h1>
+                        <h1 className="text-5xl font-bold animate__animated animate__backInDown">Login now!</h1>
                     </div>
                     <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
 
