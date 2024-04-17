@@ -23,7 +23,7 @@ const Contact = () => {
                     <p>
                         <p className=' font-bold'>Email</p>
                         <hr />
-                        RHome5732@gmail.com
+                        rhome5732@gmail.com
                     </p>
                     <p>
                         <p className=' font-bold'> Office Location</p>
